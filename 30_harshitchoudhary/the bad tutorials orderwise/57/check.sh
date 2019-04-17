@@ -14,7 +14,7 @@ time=0
 
 while true 
 do
-	who | grep "$logname" > /home/harshit/Desktop/labwork/56/null
+	who | grep "$logname" > /home/harshit/Desktop/labwork/57/null
 	if [ $? -eq 0 ]
 	then
 		echo "$logname has logged in "
